@@ -77,7 +77,7 @@ const Cards = () => {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    React useContext
+                  {datas.title}
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
                     Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -92,9 +92,9 @@ const Cards = () => {
                     <Typography variant="subtitle2" component="p">
                       Guy Clemons
                     </Typography>
-                    <Typography variant="subtitle2" color="textSecondary" component="p">
+                    {/* <Typography variant="subtitle2" color="textSecondary" component="p">
                       May 14, 2020
-                    </Typography>
+                    </Typography> */}
                   </Box>
                 </Box>
                 <Box>
